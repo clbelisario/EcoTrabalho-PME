@@ -1,1 +1,1 @@
-Projeto para o Curso de Gestão de TI
+Project for the IT Management Course
