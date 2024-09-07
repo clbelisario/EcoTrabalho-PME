@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vagas Recomendadas</title>
+</head>
+<body>
+    <h1>Bem-vindo, {{ perfil.nome }}!</h1>
+    <h2>Vagas Recomendadas:</h2>
+    <ul>
+        {% for vaga in vagas %}
+            <li>{{ vaga.titulo }}</li>
+        {% else %}
+            <p>Não há vagas recomendadas no momento.</p>
+        {% endfor %}
+    </ul>
+</body>
+</html>
